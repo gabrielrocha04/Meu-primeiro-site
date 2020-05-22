@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-orange">
+  <a href="#home" class="w3-button w3-bar-item">EDIÇÕES</a>
+  <a href="#band" class="w3-button w3-bar-item">ILUSTRAÇÕES</a>
+  <a href="#tour" class="w3-button w3-bar-item">ANIMAÇÕES</a>
+  <a href="#contact" class="w3-button w3-bar-item ">PINTURA DIGITAL</a>
+</nav>
+
+<!-- Slide Show -->
+<section>
+  <img class="mySlides" src="ilustração.jpg"
+  style="width:100%">
+  <img class="mySlides" src="flash.png"
+  style="width:100%">
+  <img class="mySlides" src="3d.jpg"
+  style="width:100%">
+</section>
+
+<!-- Band Description -->
+<section class="w3-container w3-center w3-content w3-bar w3-red" style="max-width:px"->
+  <h2 class="w3-wide">ARTES GRÁFICAS</h2>
+  <p class="w3-opacity"><i></i></p>
+  <p class="w3-justify">Arte gráfica é um tipo de comunicação em que conceitos e ideias são mostrados de forma visual. Elas estão presentes no nosso dia-a-dia e nosso contato com elas é constante.
+Pense bem, ao tomar café da manhã você teve contato com o que estava impresso na caixa de leite e no rótulo do pão. Indo para o trabalho você viu outras inúmeras peças gráficas em outdoors, anúncios na rua e até mesmo em veículos envelopados. 
+Só nesses dois momentos já dá pra ter uma ideia da quantidade de artes que nos rodeiam, sem citar que com as novas tecnologias esse numero está monstruosamente maior e aumentando em uma velocidade nunca antes vista.
+Não é preciso prolongar muito esse raciocínio para entender que as peças gráficas estão impregnadas em nossa cultura e em nossas vidas. Elas estão ligadas a padrões de beleza estética e à criatividade do ser humano, que pode compreendê-las e avaliá-las através da visão.</p>
+</section>
+
+<!-- Band Members -->
+<section class="w3-row-padding w3-center w3-light-grey">
+  <article class="w3-third">
+    <p>3D MAYA</p>
+    <img src="homiaranha.jpg" alt="Random Name" style="width:100%">
+    <p>Spider-Man 3D.</p>
+  </article>
+  <article class="w3-third">
+    <p>ILUSTRATOR</p>
+    <img src="sonic.png" alt="Random Name" style="width:100%">
+    <p>Sonic ART.</p>
+  </article>
+  <article class="w3-third">
+    <p>PHOTOSHOP</p>
+    <img src="manipulação.webp" alt="Random Name" style="width:100%"> 
+    <p>Manipulação de Imagens.</p>
+  </article>
+</section>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-orange w3-xlarge">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+  Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  <script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+    </script>
+    
+    </body>
+    </html>
